@@ -17,6 +17,7 @@ if __name__ == "__main__":
             print("{} + {} = {}".format(a, b, mul(a, b)))
         if operator == '/':
             print("{} + {} = {}".format(a, b, div(a, b)))
+    ops[operator] = sys.argv[2]
     if sys.argv[2] not in ops:
         print("Unknown operator. Available operators: +, -, * and /")
     sys.exit(1)
