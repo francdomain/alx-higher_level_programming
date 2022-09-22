@@ -10,13 +10,13 @@ if __name__ == "__main__":
     ops = ['+', '-', '*', '/']
     for operator in ops:
         if operator == '+':
-            print("{} + {} = {}".format(a, b, add(a, b)))
+            print("{} {} {} = {}".format(a, sys.argv[2], b, add(a, b)))
         if operator == '-':
-            print("{} + {} = {}".format(a, b, sub(a, b)))
+            print("{} {} {} = {}".format(a, sys.argv[2], b, sub(a, b)))
         if operator == '*':
-            print("{} + {} = {}".format(a, b, mul(a, b)))
+            print("{} {} {} = {}".format(a, sys.argv[2], b, mul(a, b)))
         if operator == '/':
-            print("{} + {} = {}".format(a, b, div(a, b)))
+            print("{} {} {} = {}".format(a, sys.argv[2], b, div(a, b)))
     sys.argv[2] == ops[operator]
     if sys.argv[2] not in ops:
         print("Unknown operator. Available operators: +, -, * and /")
