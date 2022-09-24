@@ -7,4 +7,4 @@ def element_at(my_list, idx):
         return None
     else:
         for idx in my_list:
-            return my_list[idx]
+            print(my_list[idx])
