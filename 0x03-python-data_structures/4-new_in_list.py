@@ -7,5 +7,6 @@ def new_in_list(my_list, idix, element)i:
     elif idx > len(my_list) - 1:
         return new_list
     else:
-        for elem in new_list.replace(idx, element):
+        if idx in new_list and element not in new_list:
+            new_list[idx] = element
             return new_list
