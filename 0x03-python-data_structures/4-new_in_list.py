@@ -9,4 +9,4 @@ def new_in_list(my_list, idix, element)i:
     else:
         if element not in new_list and idx < len(new_list) - 1:
             new_list[idx] = element
-            return new_list
+        return new_list
