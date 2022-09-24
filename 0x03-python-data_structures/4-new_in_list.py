@@ -2,9 +2,11 @@
 def new_in_list(my_list, idix, element):
     idx <= len(my_list) - 1
     if idx < 0:
-        return my_list[:]
+        my_list[:]
+        retuen my_list
     elif idx > len(my_list) - 1:
-        return my_list[:]
+        my_list[:]
+        return my_list
     else:
         my_list[:][idx] = element
-        return my_list[:]
+        return my_list
