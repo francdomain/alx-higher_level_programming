@@ -6,5 +6,6 @@ def element_at(my_list, idx):
     elif idx > len(my_list):
         return None
     else:
-        for idx in my_list:
-            print("{}".format(my_list[idx]))
+        return my_list[idx]
+    for idx in my_list:
+        print("{}".format(my_list[idx]))
