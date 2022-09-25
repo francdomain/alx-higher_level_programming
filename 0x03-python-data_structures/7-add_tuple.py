@@ -12,4 +12,4 @@ def add_tuple(tuple_a=(), tuple_b=()):
             tuple_b = (0, 0)
         else:
             tuple_b = (tuple[0], 0)
-    return ("({:d}, {:d})".format(x, y))
+    return (x, y)
