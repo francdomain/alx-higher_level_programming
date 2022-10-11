@@ -1,9 +1,7 @@
 #!/usr/bin/python3
+"""Define a class Square"""
+
+
 class Square:
-    """An empty class Square that defines a square
-    You are not allowed to import any module
-    """
+    """an empty class"""
     pass
-
-
-my_square = Square()
